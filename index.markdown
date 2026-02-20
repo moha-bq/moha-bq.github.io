@@ -69,8 +69,7 @@ Features:
 You can see it in action in this video: 
 
 <div style="text-align: center;">
-<iframe width="560" height="315" src="https://www.youtube.com/embed/_uOOwYviJlA?si=yOwldzPVHMb52FLz" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-</div>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/TmroTbdkY5I?si=-UWbF91SeLwIYzjV" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe></div>
 <br>
 
 Written in C++. It uses WIN32, D3D11, Freetype, stb_image and Dear Imgui. Blender was used through its Python interface to write a custom 3D model binary format which supports geometry, materials, textures and animation data.
