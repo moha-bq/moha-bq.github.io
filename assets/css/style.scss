@@ -5,3 +5,55 @@
 
 .my_btn { font-weight: bold; color: white; border: 1px solid #5d910b; background: linear-gradient(#93bd20, #659e10); border-radius: 2px; box-shadow: inset 0px 1px 0px rgba(255, 255, 255, 0.3), 0px 3px 7px rgba(0, 0, 0, 0.7); background-color: #93bd20; padding: 10px 12px; margin-top: 6px; line-height: 14px; font-size: 14px; display: inline-block; text-align: center; }
 .my_btn:hover { font-weight:bold; background: linear-gradient(#749619, #527f0e); background-color: #659e10; border: 1px solid #527f0e; box-shadow: inset 0px 1px 1px rgba(0, 0, 0, 0.2), 0px 1px 0px rgba(0, 0, 0, 0); }
+
+.lang-switcher {
+  text-align: center;          
+  margin: 1rem 0;             
+  padding: 0.5rem;
+}
+
+.lang-switcher a {
+  margin: 0 1rem;              
+  display: inline-block;    
+  opacity: 0.4;
+  text-decoration: none;
+  transition: opacity 0.2s ease;
+}
+
+.lang-switcher a.current,
+.lang-switcher a:hover {
+  opacity: 1;
+}
+
+.lang-switcher img {
+  width: 32px;                 
+  height: 24px;           
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  vertical-align: middle;
+  box-shadow: 0 1px 3px rgba(0,0,0,0.1); 
+}
+
+.wrapper {
+  padding-top: 0;  
+}
+
+section {
+  margin-top: 0;
+}
+
+.about_me {
+  text-indent: 5em;
+  font-size: 1.3rem;          /* a bit larger than normal text */
+  font-weight: 400;           /* not too bold */
+
+  margin: 0.5rem 0 1.5rem 0;  /* space above title */
+  max-width: 65ch;            /* prevents very long lines */
+  line-height: 1.45;
+  text-align: justify;         /* or left — your choice */
+}
+
+/* If you want it even more prominent */
+.about_me strong {
+  color: #222;
+}

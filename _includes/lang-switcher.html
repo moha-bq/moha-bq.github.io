@@ -1,0 +1,18 @@
+<div class="lang-switcher">
+  {% for lang in site.languages %}
+    {% assign is_current = false %}
+    {% if lang.code == page.lang or (page.lang == nil and lang.code == "en") %}
+      {% assign is_current = true %}
+    {% endif %}
+
+    <a href="/{{ lang.code }}/" 
+       class="{% if is_current %}current{% endif %}"
+       title="{{ lang.name }}">
+      <img src="{{ lang.flag | relative_url }}" 
+           alt="{{ lang.name }} flag" 
+           width="24" height="18" style="vertical-align: middle;">
+      {% comment %} Optional: show text too {% endcomment %}
+      <!-- {{ lang.name }} -->
+    </a>
+  {% endfor %}
+</div>

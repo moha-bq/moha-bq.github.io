@@ -1,9 +1,10 @@
 ---
 title: My Projects
+lang: en
 layout: default
+about_me: Mohammed BEQQI is a passionate software programmer with a particular interest in real-time systems. He has been programming in C/C++ for more than a decade, a period in which he explored how computers work at a low level, and developped a solid foundation in algorithms and data structures.
 ---
 
-<br>
 <br>
 
 <div style="text-align: center;">
@@ -26,7 +27,7 @@ Features:
 You can see it in action in this video: 
 
 <div style="text-align: center;">
-<iframe width="560" height="315" src="https://www.youtube.com/embed/s4VdSb1_dxQ?si=RYwg0Dg84Zx7vyow" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/HhTwIjqeDlQ?si=RoYPKLqw3qGtyac_" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 </div>
 <br>
 
@@ -52,7 +53,7 @@ It was written in C++. It uses WIN32 for the platform layer(windowing, memory, f
 Features:
 
 * Shading: Forward, Deferred, Tiled Forward, Tiled Deferred
-* Light culling for Tiled variants is done on GPU usin a Compute Shader.
+* Light culling for Tiled variants is done on GPU using a Compute Shader.
 * 2.5 Light culling (as described in Takahiro Harada paper)
 * Point, Spot and directional lights
 * Blinn-Phong lighting model
@@ -63,8 +64,7 @@ Features:
 * Editor UI
 * Custom 3D Gizmo
 * Instrumentation-based CPU and GPU profiler
-* Custom 3D model binary format (supports geometry, materials, textures and animation)
-
+* Custom 3D model binary format
 
 You can see it in action in this video: 
 
@@ -117,6 +117,30 @@ Written in C using POSIX API for multi-threading and sockets.
 <br>
 
 <div style="text-align: center;">
+<h1> Super Mario Bros. Clone</h1>
+<h3> A clone of Super Mario Bros (NES version) with a level editor</h3>
+</div>
+
+<div style="text-align: center;">
+<iframe width="560" height="315" src="https://www.youtube.com/embed/CZezLogQr-c?si=5ywmMbd0UxXxfZVC" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+</div>
+
+<br>
+
+Written in C++ using HGE(Haaf's Game Engine).
+
+<div style="text-align: center;">
+<a href="https://github.com/moha-bq/Super-Mario-Bros" class="my_btn"> Source code and Demo</a>
+</div>
+
+<br>
+
+* * *
+
+<br>
+<br>
+
+<div style="text-align: center;">
 <h1> Jelly Couple</h1>
 <h3> Android game about controlling two jellys at the same time</h3>
 </div>
@@ -137,7 +161,6 @@ Written in C++ using Cocos2Dx.
 
 * * *
 
-
 <br>
 <br>
 
@@ -156,9 +179,9 @@ The following video show a FPS prototype, some car physics and a Tilemap editor:
 
 You can find my other projects on my github:
 
-* Software renderer with perspective-correct texture mapping - C++, SIMD using SSE2
+* Software renderer with perspective-correct texture mapping. Processes 4 pixels at a time using SSE2 instructions - C++
 * Raytracer - C++ 
-* LearnD3D_Demo: Implementation of stable cascaded shadow maps - C++, D3D11
+* Implementation of stable cascaded shadow maps (learnd3d)- C++, D3D11
 * T-Spline(NURBS with T-junctions) editor and visualizer - C++, SDL2, OpenGL3
 * And many others...
 <div style="text-align: center;">

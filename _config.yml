@@ -43,3 +43,13 @@ full-width: true
 #   - vendor/cache/
 #   - vendor/gems/
 #   - vendor/ruby/
+
+languages:
+  - code: en
+    name: English
+    flag: /assets/img/flag-en.png
+
+  - code: fr
+    name: Français
+    flag: /assets/img/flag-fr.png
+
