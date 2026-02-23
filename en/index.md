@@ -102,7 +102,7 @@ It also uses steganography to conceal information about the client requests in t
 </div>
 <br>
 
-Written in C using POSIX API for multi-threading and sockets.
+Written in C using POSIX for multi-threading and sockets.
  
  
 <div style="text-align: center;">

@@ -45,7 +45,7 @@ Ecrit en C++. Il utilise WIN32 pour la couche plateforme (fenêtrage, mémoire, 
 
 <div style="text-align: center;">
 <h1> 3D Demo </h1>
-<h3> Implémentation de différents algorithmes d'éclairage 3D, d'un système de particule et de l'animation squelettique</h3>
+<h3> Implémentation de différents algorithmes d'éclairage 3D, d'un système de particules et de l'animation squelettique</h3>
 </div>
 
 
@@ -100,7 +100,7 @@ Le système sert aussi des requêtes TCP en retournant des images TARGA qui visu
 </div>
 <br>
 
-Écrit en C++. Il utilise POSIX API pour le multi-threading et les sockets.
+Écrit en C++. Il utilise POSIX pour le multi-threading et les sockets.
  
  
 <div style="text-align: center;">
