@@ -181,7 +181,7 @@ You can find my other projects on my github:
 
 * Software renderer with perspective-correct texture mapping. Processes 4 pixels at a time using SSE2 instructions - C++
 * Raytracer - C++ 
-* Implementation of stable cascaded shadow maps (learnd3d)- C++, D3D11
+* Implementation of stable cascaded shadow maps (repository name: learnd3d)- C++, D3D11
 * T-Spline(NURBS with T-junctions) editor and visualizer - C++, SDL2, OpenGL3
 * And many others...
 <div style="text-align: center;">
